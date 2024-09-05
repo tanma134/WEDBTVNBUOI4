@@ -1,0 +1,19 @@
+.link a {
+    display: inline-block; 
+    position: relative; 
+    padding-left: 20px; 
+}
+.link a:before {
+    content: "■"; 
+    color :black;
+    text-decoration: none;
+    position: absolute; 
+}
+img{
+   margin-bottom: 30px;
+   width: 30%;
+}
+.anh{
+    width: 250%;
+    margin-bottom: 30px
+}
