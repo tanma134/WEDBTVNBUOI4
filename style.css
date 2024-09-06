@@ -1,19 +1,131 @@
-.link a {
-    display: inline-block; 
-    position: relative; 
-    padding-left: 20px; 
-}
-.link a:before {
-    content: "■"; 
-    color :black;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+nav{
+    display: flex;
+    margin-top: 10px;
+    background-color: #2EC5C0;
+    padding: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+nav a {
+    color: white;
+    margin: 15px;
     text-decoration: none;
-    position: absolute; 
+    word-spacing: 15px;
+  }
+header img{
+    width: 8%;
+    margin-left: 45%;
+    height: 77px;
 }
-img{
-   margin-bottom: 30px;
-   width: 30%;
+.smarthome {
+  display: flex;
 }
-.anh{
-    width: 250%;
-    margin-bottom: 30px
+
+.smarthome h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
 }
+
+.smarthome p {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 136px;
+  line-height: 1.8;
+  width: 45%;
+  margin-left: 38px;
+  text-align: justify;
+}
+
+.smarthome img {
+  width: 100%;
+  margin-top: -56px;
+  margin-left: 39px;
+}
+.sale{
+  color: #2EC5C0;
+  display: flex;
+  margin-top: 25px;
+}
+.sale .b{
+  margin-left: 450px
+}
+.sale .a{
+  margin-left: 25%;
+}
+.Products{
+  display: flex;
+}
+.Products .images .a{
+  width: 33%;
+  margin-right: 71px;
+  margin-left: 133px;
+}
+.Products .images .b{
+  width: 33%;
+}
+.Products .images{
+  margin-top: 30px;
+}
+.Products .images .chu{
+  display: flex;
+}
+.Products .images .chu .c{
+  margin-right: 230px;
+  margin-left: 200px;
+  font-weight: bold;
+}
+.Products .images .chu .d{
+  font-weight: bold;
+}
+table{
+  height: 500px;
+  margin-right: 100px;
+  width: 500px;
+  border-collapse: collapse;
+}
+table .bang{
+  background-color: #2EC5C0;
+  color : white;
+}
+th, td {
+  border: 1px solid black; 
+  padding: 8px;
+  
+}
+.Products .images .gia{
+  display: flex;
+}
+.Products .images .gia1{
+  display: flex;
+}
+.Products .images .gia2{
+  display: flex;
+}
+.Products .images .gia1 .giacu{
+  text-decoration: line-through;
+  opacity: 0.3;
+  margin-right: 20px;
+  margin-left: 230px;
+}
+.Products .images .gia1 .giamoi{
+ color:red;
+ margin-right: 300px;
+}
+
+.Products .images .gia2 .giacu{
+  text-decoration: line-through;
+  opacity: 0.3;
+  margin-right: 20px;
+}
+.Products .images .gia2 .giamoi{
+  color:red;
+ }
+
