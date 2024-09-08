@@ -26,28 +26,36 @@ header img{
 .smarthome {
   display: flex;
 }
-
+.smarthome .intro{
+  margin-top: 220px;
+  margin-left: 120px;
+}
 .smarthome h1 {
   font-size: 36px;
   font-weight: bold;
   text-align: left;
   margin-bottom: 10px;
+  margin-left: 280px;
 }
-
-.smarthome p {
-  font-size: 1.2em;
-  color: #555;
-  margin-top: 136px;
-  line-height: 1.8;
-  width: 45%;
-  margin-left: 38px;
+.line {
+  border: none;
+  height: 5px;
+  background-color:  #2EC5C0; 
+  margin-bottom: 40px ;
+  width: 14%;
+  margin-left: 530px;
+}
+.smarthome .intro p {
+  width: 95%;
   text-align: justify;
+  line-height: 1.8;
+  font-size: 1.2em;
 }
 
 .smarthome img {
-  width: 100%;
-  margin-top: -56px;
-  margin-left: 39px;
+  margin-top: 20px;
+  margin-right: 20px;
+ 
 }
 .sale{
   color: #2EC5C0;
@@ -126,6 +134,69 @@ th, td {
   margin-right: 20px;
 }
 .Products .images .gia2 .giamoi{
-  color:red;
+  color:red; 
  }
+ .Products .images .formbasic {
+  display: flex;
+ }
+ .Products .images .formbasic .a{
+  background-color: orange; 
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 14px; 
+  border-radius: 30px;
+  cursor: pointer; 
+  font-family: Arial, sans-serif; 
+  width: 12%;
+  height: 60px;
+  margin-left: 220px;
+ }
+ .Products .images .formbasic .b{
+  background-color: orange; 
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 14px; 
+  border-radius: 30px;
+  cursor: pointer; 
+  font-family: Arial, sans-serif; 
+  width: 12%;
+  height: 60px;
+  margin-left: 195px;
+ }
+.nhap{
+  color: #2EC5C0;
+  margin-left:  495px;
+  margin-top: 60px;
+}
+.info{
+  display: flex;
+}
+.info img{
+ margin-left: 40px;
+ width: 660px;
+    height: 400px; 
+    object-fit: fill;
+    margin-right: 50px;
 
+}
+.fromBasic .a{
+margin-left: 120px;
+}
+.fromBasic .b{
+  margin-left: 60px;
+  }
+label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #FF6600; /* Màu cam cho nhãn */
+  margin-bottom: 5px;
+}
