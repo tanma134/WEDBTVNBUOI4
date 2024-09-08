@@ -187,16 +187,85 @@ th, td {
     margin-right: 50px;
 
 }
-.fromBasic .a{
+.info .chu .a{
 margin-left: 120px;
+font-size: 18px;
 }
-.fromBasic .b{
-  margin-left: 60px;
+.info .chu .b{
+  margin-left: 50px;
+  font-size: 18px;
   }
 label {
-  display: block;
   text-align: left;
-  font-size: 14px;
-  color: #FF6600; /* Màu cam cho nhãn */
+  font-size: 16px;
+  color: #FF6600;
   margin-bottom: 5px;
 }
+.info .nhapVao{
+ display: block;
+ margin-top:40px;
+}
+.info .nhapVao .name{
+    display: block;
+}
+.info .nhapVao .name .a{
+  margin-bottom:20px;
+}
+.info .nhapVao .name .b{
+  margin-bottom:20px;
+}
+.info .nhapVao .name .c{
+  margin-bottom:20px;
+}
+.info .nhapVao .name .a label{
+  margin-right:20px;
+}
+.info .nhapVao .name .b label{
+  margin-right:44px;
+}
+.info .nhapVao .name .c label{
+  margin-right:32px;
+}
+.info .nhapVao .name .a input{
+  width: 350px;
+  height: 24px;
+}
+.info .nhapVao .name .b input{
+  width: 350px;
+  height: 24px;
+}
+.info .nhapVao .name .c input{
+  width: 350px;
+  height: 24px;
+}
+.info .nhapVao .button1 .a{
+  margin-left: 140px;
+  margin-right:5px;
+}
+.info .nhapVao .button1 button{
+  background-color: orange; 
+  color :#f4f4f4;
+  text-align: center; 
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 8px;
+}
+.bord {
+  border: 5px solid #2EC5C0; 
+  padding: 10px;              
+  background-color: #2EC5C0; 
+  color:#f4f4f4;
+  margin-top:40px;
+}
+.bord .a{
+  margin-left:40%;
+}
+.bord .b{
+  margin-left:37%;
+}
+.bord .c{
+  margin-left:43%;
+}
+
+
